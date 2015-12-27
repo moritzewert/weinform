@@ -1,0 +1,230 @@
+/* Allgemeines */
+@media (max-width: 992px) {
+    .visible-desktop {
+        display: none!important;
+    }
+    .visible-mobile {
+        display: block;
+    }
+}
+@media (min-width: 992px) {
+   .visible-desktop {
+        display: block;
+    }
+    .visible-mobile {
+        display: none!important;
+    } 
+}
+@media (max-width: 992px) {
+    .vorteilbar, .animation-mitnehmen {
+        display: none;
+    }
+}
+/* Startseite */
+header.home-header {
+    .header-title {
+        @media (max-width: 400px) {
+            top:25%;
+        }
+        @media (min-width:400px) and (max-width: 525px) {
+            top:30%;
+        }
+        @media (min-width:525px) and (max-width: 615px) {
+            top: 30%;
+        }
+        @media (min-width:625px) and (max-width: 768px) {
+            padding:0px 20px;
+            top:35%;
+        }
+    }
+    @media (max-width: 768px) {
+        background-image: url(../images/landing/header-image-mobile.jpg);
+        height: 500px;
+        nav {
+            .navbar-brand {
+                position: relative;
+                top:10px;
+                left:15px;
+            }
+        }
+        .header-facts {
+            display: none;
+        }
+        .header-title {
+            h1, h2 {
+                padding-left: 35px;
+                padding-right: 35px;
+            }
+        }
+    }
+    @media (min-width:768px) and (max-width: 992px) {
+        .header-facts {
+            display: none;
+        }
+    }
+}
+section.paket-versenden {
+    @media (max-width: 768px) {
+        .col-md-4 {
+            margin-bottom: 30px;
+        }
+    }
+    @media (min-width:768px) and (max-width: 992px) {
+        .col-md-4 {
+            width: 33%;
+            display: inline;
+            float: left;;
+        }
+    }
+}
+section.preisberechnung {
+    @media (max-width: 768px) {
+        background-image: url(../images/landing/preis-bg-mobile.jpg);
+        height: auto;
+        overflow: hidden;
+        padding-left: 30px;
+        padding-right: 30px;
+        .section-bg-verlauf {
+            left: 0px;
+        }
+        .hamburg-berlin {
+            text-align: center;
+            margin-top: 30px;
+            .border-radius;
+            border: 1px solid #fff;
+            position: relative;
+            z-index: 999;
+            padding: 20px;
+            margin: 0px auto;
+            width: 80%;
+            display: block;
+            p {
+                color: #fff;
+                line-height: 26px;
+                font-size: 22px!important;
+            }
+        }
+    }
+}
+section.sicherheit {
+    @media (max-width: 768px) {
+        background-image: url(../images/landing/sicherheit-bg-mobile.jpg);
+        background-size: contain;
+        background-repeat: repeat;
+        padding-left: 30px;
+        padding-right: 30px;
+        .section-bg-verlauf {
+            left: 0px;
+        }
+        .col-md-6:nth-child(1) {
+            span {
+                padding-bottom: 20px;
+                display: inline-block;
+            }
+            p {
+                color: #fff;
+                display: inline;
+            }
+        }
+    }
+     @media (min-width:768px) and (max-width: 992px) {
+        .col-md-6:nth-child(1) ul {
+            position: relative;
+            left: 150px;
+        }
+    }
+    .col-md-6:nth-child(2) {
+        @media (max-width: 768px) {
+            padding-left: 20px;
+            margin-top: 30px;
+        }
+        @media (min-width:768px) and (max-width: 992px) {
+            margin-top: 30px;
+        }
+        .col-md-4 {
+            @media (min-width:768px) and (max-width: 992px) {
+                float:left;
+                display: inline;
+                width: 16%;
+                margin-bottom: 15px;
+            }
+            @media (max-width: 768px) {
+                float:left;
+                display: inline;
+                width: 32%;
+                margin-bottom: 15px;
+            }
+            @media (max-width: 450px) {
+                width: 49%;
+            }
+        }
+    }
+}
+section.abfahrt {
+    @media (max-width: 992px) {
+        .col-md-9, .col-md-3 {
+            width: 100%;
+            text-align: center;
+        }
+    }
+    padding-bottom: 30px;
+}
+section.social {
+    @media (max-width: 992px) {
+        .col-md-6 {
+            text-align: center!important;
+            a {
+                padding: 0px!important;
+            }
+        }
+    }
+}
+section.strecke {
+    @media (max-width: 768px) {
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+    @media (max-width: 350px) {
+        input {
+            width: 100px;
+        }
+    }
+}
+section.paket-versenden {
+    @media (max-width: 768px) {
+        .vorteile {
+            height: auto;
+            padding-bottom: 15px;
+        }
+    }
+}
+div.collapse.navbar-collapse {
+    @media (max-width: 768px) {
+        .bt {
+            border: 0px;
+            color:#fff!;
+        }
+    }
+}
+footer {
+    @media (max-width: 992px) {
+        .col-md-2, .col-md-5 {
+            display: block;
+            width: 100%;
+            text-align: center;
+            li {
+                margin: 0px;
+                margin-right: 5px;
+                padding: 0px;
+            }
+        }
+        .col-md-5 {
+            margin-top: 10px!important;
+        }
+        .col-md-5.footerleft {
+            text-align: center;
+        }
+    }
+}
+
+@media (min-width: 1200px) {}
