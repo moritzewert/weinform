@@ -21,8 +21,8 @@
             </div>
             <div class="collapse navbar-collapse">
                 <ul class="nav navbar-nav navbar-right">
-                    <li><a href="{{url('#')}}" class="bt bt-weiss-transparent">Login</a></li>
-                    <li><a href="{{url('#')}}" class="bt bt-second-fill">Register</a></li>
+{{--                     <li><a href="{{url('#')}}" class="bt bt-weiss-transparent">Login</a></li>
+                    <li><a href="{{url('#')}}" class="bt bt-second-fill">Register</a></li> --}}
                 </ul>
             </div>
         </div>
