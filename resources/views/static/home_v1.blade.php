@@ -21,8 +21,8 @@
             </div>
             <div class="collapse navbar-collapse">
                 <ul class="nav navbar-nav navbar-right">
-                    <li><a href="{{url('#')}}" class="bt bt-weiss-transparent">Login</a></li>
-                    <li><a href="{{url('#')}}" class="bt bt-second-fill">Register</a></li>
+{{--                     <li><a href="{{url('#')}}" class="bt bt-weiss-transparent">Login</a></li>
+                    <li><a href="{{url('#')}}" class="bt bt-second-fill">Register</a></li> --}}
                 </ul>
             </div>
         </div>
@@ -30,7 +30,7 @@
 
     <div class="header-title wow zoomInUp">
         <h1>We.Inform</h1>
-        <h2>Informations for refugees - More coming soon.</h2>
+        <h2>Information for refugees - More coming soon.</h2>
         <a href="mailto:info@we-inform.de" class="bt bt-second-fill">E-Mail us!</a>
     </div>
     {{-- <div class="header-facts wow fadeIn" data-wow-delay="1.1s">
@@ -48,22 +48,9 @@
 <footer class="wow fadeIn" data-wow-delay="0.6s">
     <div class="container">
         <div class="row">
-            <div class="col-md-2 visible-mobile">
-                <span class="icon-logo"></span>
-            </div>
-            <div class="col-md-5 footerleft">
+            <div class="col-md-6">
                 <ul>
                     <li><a target="blank" href="http://www.law-school.de/deutsch/footer/impressum/">Imprint</a></li>
-{{--                     <li><a href="{{url('/agb')}}">Terms</a></li> --}}
-                </ul>
-            </div>
-            <div class="col-md-2 visible-desktop">
-                {{-- <span class="icon-logo"></span> --}}
-            </div>
-            <div class="col-md-5">
-                <ul>
-{{--                     <li><a href="{{url('/faq')}}">FAQ</a></li>
-                    <li><a href="{{url('/howitworks')}}">How We.Inform works</a></li> --}}
                 </ul>
             </div>
         </div>
