@@ -1,0 +1,134 @@
+/* ### base.css
+Bitte ausschließlich für Variablen und Mixins verwenden ### */
+/* Farben */
+/* Blau */
+/* Grau */
+/* Hellblau */
+/*
+-------------------------------
+*/
+/* Schrift */
+/*
+-------------------------------
+*/
+/* Buttons */
+/* Animationsdauer bei Hover */
+/*
+Mixins
+-------------------------------
+*/
+/* Allgemein */
+@import url(http://fonts.googleapis.com/css?family=Lato:400,300,700);
+.middle {
+  margin: 0px auto;
+}
+.glatten {
+  -moz-transform: scale(0.9999);
+}
+/*
+-------------------------------
+*/
+/* Kreis Nutzerbilder */
+/*
+-------------------------------
+*/
+/* Verlauf aus Hauptfarbe für Section-Hintergründe */
+.section-bg-verlauf {
+  background-image: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDExODAgNjk5IiBwcmVzZXJ2ZUFzcGVjdFJhdGlvPSJub25lIj48bGluZWFyR3JhZGllbnQgaWQ9ImhhdDAiIGdyYWRpZW50VW5pdHM9Im9iamVjdEJvdW5kaW5nQm94IiB4MT0iNTAlIiB5MT0iMTAwJSIgeDI9IjUwJSIgeTI9Ii0xLjQyMTA4NTQ3MTUyMDJlLTE0JSI+CjxzdG9wIG9mZnNldD0iMCUiIHN0b3AtY29sb3I9IiMxZDVkODMiIHN0b3Atb3BhY2l0eT0iMC43NSIvPgo8c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9IiMyYjdiYTMiIHN0b3Atb3BhY2l0eT0iMC43NSIvPgogICA8L2xpbmVhckdyYWRpZW50PgoKPHJlY3QgeD0iMCIgeT0iMCIgd2lkdGg9IjExODAiIGhlaWdodD0iNjk5IiBmaWxsPSJ1cmwoI2hhdDApIiAvPgo8L3N2Zz4=);
+  background-image: linear-gradient(bottom, rgba(29, 94, 132, 0.75) 0%, rgba(44, 124, 163, 0.75) 100%);
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0px;
+  opacity: 0.9;
+}
+/* Fullscreen-Hintergrund */
+.fullscreen {
+  background-size: cover;
+}
+/*
+-------------------------------
+*/
+/* Border-Radius */
+.border-radius {
+  border-radius: 3px;
+  background-clip: padding-box;
+}
+/*
+-------------------------------
+*/
+/* Schriftart */
+.font-family {
+  font-family: 'Lato', sans-serif;
+}
+.bt {
+  border-radius: 3px;
+  background-clip: padding-box;
+  transition-duration: 0.5s;
+  font-weight: 400;
+}
+.bt:hover {
+  cursor: pointer;
+}
+.bt-weiss-transparent,
+.bt-second-fill {
+  color: #fff;
+}
+.bt-weiss-transparent {
+  border: 1px solid #ffffff;
+}
+.bt-weiss-transparent:hover {
+  background-color: #fff;
+  color: #2f2f2f;
+}
+.bt-second-fill {
+  background-color: #2f2f2f;
+  border: 1px solid #2f2f2f;
+}
+.bt-second-fill:hover {
+  background-color: transparent;
+  color: #fff;
+}
+.bt-second-transparent {
+  color: #2f2f2f;
+  border: 1px solid #2f2f2f;
+  padding: 10px 25px 11px 25px;
+}
+.bt-second-transparent:hover {
+  background-color: #2f2f2f;
+  color: #fff;
+}
+body {
+  font-family: 'Lato';
+  margin-top: 25px;
+  background-color: #ededed;
+}
+.fa-btn {
+  margin-right: 6px;
+}
+.table-text div {
+  padding-top: 6px;
+}
+.blue {
+  color: #00a4db !important;
+}
+.btn-blue {
+  color: #ffffff !important;
+  background-color: #00a4db !important;
+  border-color: #00a4db !important;
+}
+.btn-blue:hover,
+.btn-blue:focus,
+.btn-blue:active,
+.btn-blue.active,
+.open .dropdown-toggle.btn-blue {
+  color: #ffffff !important;
+  background-color: #008dbc !important;
+  border-color: #008dbc !important;
+}
+#imprint_link {
+  color: grey;
+  text-decoration: none;
+}
+
+/*# sourceMappingURL=product.css.map */

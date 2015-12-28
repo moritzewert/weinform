@@ -18,7 +18,7 @@
                         {!! csrf_field() !!}
 
                         <div class="form-group{{ $errors->has('email') ? ' has-error' : '' }}">
-                            <label class="col-md-4 control-label">E-Mail Address</label>
+                            <label class="col-md-4 control-label blue">E-Mail Address</label>
 
                             <div class="col-md-6">
                                 <input type="email" class="form-control" name="email" value="{{ old('email') }}">
@@ -33,7 +33,7 @@
 
                         <div class="form-group">
                             <div class="col-md-6 col-md-offset-4">
-                                <button type="submit" class="btn btn-primary">
+                                <button type="submit" class="btn btn-blue">
                                     <i class="fa fa-btn fa-envelope"></i>Send Password Reset Link
                                 </button>
                             </div>

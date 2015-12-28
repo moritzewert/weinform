@@ -12,4 +12,5 @@ var elixir = require('laravel-elixir');
 
 elixir(function(mix) {
     mix.less('home.less');
+    mix.less('product.less');
 });
