@@ -50,7 +50,7 @@
                 </form>
             </div>-->
             <div class="hamburg-berlin">
-                <p>info@we-inform.de</p>
+                <a href="mailto:info@we-inform.de"><p>info@we-inform.de</p></a>
             </div>
         </div>
     </div>
