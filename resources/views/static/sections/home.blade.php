@@ -2,9 +2,9 @@
     <div class="container">
         <div class="row">
             <div class="col-md-6">
-                <h3>Attend Events</h3>
-                <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.</p>
-                <a class="bt bt-second-transparent">Register</a>
+                <h3>Events</h3>
+                <p><strong>Are you hosting events for refugees on a one time only or regular basis?</strong></p>
+                <a href="mailto:veranstaltungen@we-inform.de" class="bt bt-second-transparent">Contact us</a>
             </div>
             <div class="col-md-4 col-md-offset-1 calendar_icon visible-desktop">
                 <i class="fa fa-calendar fa-2x"></i>
@@ -29,8 +29,8 @@
     <div class="container">
         <div class="row">
             <div class="col-md-12">
-                <h1>Information Events for you</h1>
-                <h2>Register for free to attend events</h2>
+                <h1>You want to support We.Inform?</h1>
+                <h2>Get in touch with us!</h2>
             </div>
         </div>
         <div class="row">
@@ -50,7 +50,7 @@
                 </form>
             </div>-->
             <div class="hamburg-berlin">
-                <p>Hamburg</p>
+                <p>info@we-inform.de</p>
             </div>
         </div>
     </div>

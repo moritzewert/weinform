@@ -18,12 +18,12 @@
                 <span class="icon-bar bar3"></span>
                 </button>
             </div>
-            <div class="collapse navbar-collapse">
+{{--        <div class="collapse navbar-collapse">
                 <ul class="nav navbar-nav navbar-right">
                     <li><a href="{{url('/login')}}" class="bt bt-weiss-transparent">Login</a></li>
                     <li><a href="{{url('/register')}}" class="bt bt-second-fill">Register</a></li>
                 </ul>
-            </div>
+            </div> --}}
         </div>
     </nav>
 
@@ -32,7 +32,7 @@
         <h2>Information for refugees - More coming soon.</h2>
         <a href="mailto:info@we-inform.de" class="bt bt-second-fill">E-Mail us!</a>
     </div>
-{{--     <div class="header-facts wow fadeIn" data-wow-delay="1.1s">
+{{-- <div class="header-facts wow fadeIn" data-wow-delay="1.1s">
         <div class="container">
             <ul>
                 <li><span>2.701</span> Pakete versendet</li>
