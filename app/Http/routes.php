@@ -15,6 +15,11 @@ Route::get('/', function () {
     return view('static.home_v1');
 });
 
+Route::get('/lang/{lang}', function($lang){
+    \Illuminate\Support\Facades\Session::set('language', $lang);
+    return redirect()->back();
+});
+
 /*
 |--------------------------------------------------------------------------
 | Application Routes
