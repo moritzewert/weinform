@@ -38,5 +38,12 @@ Route::group(['middleware' => ['web']], function () {
 Route::group(['middleware' => 'web'], function () {
     Route::auth();
 
-    Route::get('/home', 'HomeController@index');
+    Route::get('/', function () {
+    return view('static.home_v1');
+	});
+
+	Route::get('/lang/{lang}', function($lang){
+	    \Illuminate\Support\Facades\Session::set('language', $lang);
+	    return redirect()->back();
+	});
 });
